@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           title:
               const Text("MOVIEHELL 🎞", style: TextStyle(color: Colors.white)),
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.red,
         ),
         body: BlocBuilder<HomePageCubit,List<Movies>>(
           builder: (context, snapshot) {
