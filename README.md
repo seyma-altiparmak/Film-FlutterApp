@@ -1,16 +1,11 @@
-# film_flutterapp
+# Movie Purchase App 🎞
 
-Film Mobile app project.
+This Flutter project is a simple mobile application where users can view a list of movies and purchase them. The app is primarily written in Dart and developed using the Flutter framework (Bloc Pattern). Data is fetched from an SQLite database.
 
-## Getting Started
+## Requirements
+- Flutter SDK
+- Dart SDK
+- SQLite
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Usage
+Upon launching the application, the main screen will display the list of movies. Under each movie, there is a purchase button. Clicking on the purchase button will complete the purchase of the movie just print operation. You can see details of movie too.
